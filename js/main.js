@@ -42,7 +42,7 @@ genera.addEventListener ('click',
         carrozza = Math.floor(Math.random()*10+1);
         console.log(carrozza);
 
-        codice = Math.floor(Math.random()*100000);
+        codice = Math.floor(Math.random()*10000+89999);
         console.log(codice);
 
         document.getElementById("fullname").innerHTML = nome;
@@ -54,8 +54,13 @@ genera.addEventListener ('click',
     
     )
     
-/*     annulla = document.getElementById("annulla");
+    annulla = document.getElementById("annulla");
     annulla.addEventListener ('click',
         function() {
+        nome = document.getElementById("nome").innerHTML = " ";
+        km = document.getElementById("km").innerHTML = " ";
+        console.log(nome);
+        console.log(km);
+        ticket.className = "invisible";
         }
-    ) */
+    )
