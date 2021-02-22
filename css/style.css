@@ -3,3 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #b91450;
+}
+
+.container {
+    width: 70%;
+    margin: 10vh auto;
+}
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+    margin: 30px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.white_box {
+    background: #fff;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    padding: 50px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs > * {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.inputs label {
+    display: block;
+    text-align: center;
+    color: #b91450;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.inputs input,
+.inputs select {
+    padding: 10px;
+    border: 1px solid #b91450;
+    border-radius: 7px;
+}
+
+.inputs input::placeholder {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.buttons > * {
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #b91450;
+    font-weight: 600;
+}
