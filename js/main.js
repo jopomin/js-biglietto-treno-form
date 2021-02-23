@@ -57,10 +57,13 @@ genera.addEventListener ('click',
     annulla = document.getElementById("annulla");
     annulla.addEventListener ('click',
         function() {
-        nome = document.getElementById("nome").innerHTML = " ";
-        km = document.getElementById("km").innerHTML = " ";
-        console.log(nome);
-        console.log(km);
-        ticket.className = "invisible";
+            ticket.className="invisible";
+            nome = document.getElementById("nome").value=" ";
+            km = document.getElementById("km").value=" ";  
+            fullname = document.getElementById("fullname").innerHTML=" ";
+            offerta = document.getElementById("offerta").innerHTML=" ";
+            carrozza = document.getElementById("carrozza").innerHTML=" ";   
+            codice = document.getElementById("codice").innerHTML=" ";   
+            costo = document.getElementById("costo").innerHTML=" ";   
         }
     )
